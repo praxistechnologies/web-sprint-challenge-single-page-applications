@@ -96,7 +96,7 @@ const Order = () => {
 
                     <div className="address-input">
                         <label style={{fontWeight: 500}}>Address</label><br></br>
-                        <input type="text" placeholder="Address" name="addressInput" value={inputValue.addressInput} onChange={handleInputChange}/>
+                        <input type="text" id="address-input" placeholder="Address" name="addressInput" value={inputValue.addressInput} onChange={handleInputChange}/>
                     </div><br></br>
 
 
@@ -131,13 +131,13 @@ const Order = () => {
                     <span style={{color: "red"}}>{errToppings}</span>
                     <div style={{display: "flex"}}>
                         <div className="left-side">
-                            <input type="checkbox" id="pepperoni" name="topping1" checked={state.toppings['topping1']} onChange={handleChange}/>
+                            <input type="checkbox" id="pepperoni" value="pepperoni" name="topping1" checked={state.toppings['topping1']} onChange={handleChange}/>
                             <label for="pepperoni">Pepperoni</label><br></br>
 
-                            <input type="checkbox" id="sausage" name="topping2" checked={state.toppings['topping2']} onChange={handleChange}/>
+                            <input type="checkbox" id="sausage" value="sausage" name="topping2" checked={state.toppings['topping2']} onChange={handleChange}/>
                             <label for="sausage">Sausage</label><br></br>
 
-                            <input type="checkbox" id="bacon" name="topping3" checked={state.toppings['topping3']} onChange={handleChange}/>
+                            <input type="checkbox" id="bacon" value="bacon" name="topping3" checked={state.toppings['topping3']} onChange={handleChange}/>
                             <label for="bacon">Canadian Bacon</label><br></br>
 
                             <input type="checkbox" id="spicy" name="topping4" checked={state.toppings['topping4']} onChange={handleChange}/>
@@ -178,7 +178,7 @@ const Order = () => {
 
                     <div className="substitute">
                         <label style={{fontWeight: 500}}>Choice of Substitute</label><br></br>                        
-                        <label className="switch"><input type="checkbox"/><span className="slider"></span></label>&nbsp;
+                        <label className="switch"><input type="checkbox" checked/><span className="slider"></span></label>&nbsp;
                         <label>Gluten Free Crust (+ $100)</label>                        
                     </div><br></br>
 
