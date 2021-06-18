@@ -17,6 +17,16 @@
     margin: auto;    
 }
 
+
+.name-input input {
+    width: 250px;
+    padding: 5px;
+}
+.address-input input {
+    width: 250px;
+    padding: 5px;
+}
+
 .size-section {
     width: 100%;
     display: block;

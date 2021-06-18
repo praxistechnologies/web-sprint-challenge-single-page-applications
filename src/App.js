@@ -4,6 +4,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import Header from './Header'
 import HomePage from './pages/HomePage'
 import Order from './pages/Order'
+import Success from './pages/Success'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Header />
         <Route path="/" exact component={HomePage}/>
         <Route path="/pizza" component={Order}/>
+        <Route path="/success" component={Success} />
       </div>
     </BrowserRouter>
   );

@@ -1,6 +1,7 @@
 import React from 'react'
 import "./home.css"
 import Card from '../components/Card'
+import { Link } from 'react-router-dom'
 
 const dummyData = [
     {
@@ -28,7 +29,7 @@ const HomePage = () => {
         <div className="homepage-section">
             <div className="home-header-section">
                 <h1>Your favorite food, delivered while coding.</h1>
-                <button className="pizza-btn">Pizza?</button>
+                <Link to="/pizza" className="pizza-btn">Pizza?</Link>
             </div>
             <div className="home-content-section">
                 <div>
