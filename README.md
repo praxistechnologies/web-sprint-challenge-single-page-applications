@@ -38,7 +38,7 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 ## Instructions
 
-### Task 1: Project Set Up
+### Task 1: Project Set Up - DONE
 
 - [ ] Create a forked copy of this project
 - [ ] Add your team lead as collaborator on Github
