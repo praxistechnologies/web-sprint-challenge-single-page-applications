@@ -1,0 +1,12 @@
+.card-section {
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+}
+
+.image-sec {
+    height: 100px;
+    border: 1px solid;
+    text-align: center;    
+}
+

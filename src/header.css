@@ -1,0 +1,28 @@
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo-section h1 {
+    color: red;
+    font-weight: 400;
+}
+
+.home-btn {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.help-btn {
+    padding: 10px 20px;    
+    border: none;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
