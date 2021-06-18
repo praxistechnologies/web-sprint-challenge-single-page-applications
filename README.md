@@ -52,7 +52,7 @@ End to end testing looks at the entire user experience and refers to a software 
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
 - [ ] Push commits: `git push origin <firstName-lastName>`
 
-### Task 2: Project Requirements
+### Task 2: Project Requirements - DONE
 
 Your finished project must include all of the following requirements:
 
@@ -81,7 +81,7 @@ and
 there is a key for each of the toppings and they are booleans
 (Note - your payload should look similar to the about data)
 
-#### Testing MVP 
+#### Testing MVP - DONE
 
 Implement the following tests in Cypress:
 
@@ -95,7 +95,7 @@ In your solution, it is essential that you follow best practices and produce cle
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-- [ ] Toggle form component for gluten free crust
+- [ ] Toggle form component for gluten free crust - DONE
 - [ ] Turn form element sections into nested routes
 - [ ] Test more of the application with Cypress
 - [ ] Build UI for the eventuality of a network error when POSTing the order
